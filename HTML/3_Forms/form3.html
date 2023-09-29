@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Job Application</h2>
+    <form>
+        <label for="N">Name:</label><br>
+        <input type="text" id="N" >
+        <br>
+        <br>
+        <label for="E">Email:</label><br>
+        <input type="text" id="E">
+        <br>
+        <br>
+        <label for="P">Phone:</label><br>
+        <input type="tel" id="P">
+        <br>
+        <br>
+        <label for="R">Resume:</label><br>
+        <input type="file" id="R">
+        <br>
+        <br>
+        <label for="Q">Experience(years):</label><br>
+        <input type="number"  name="counter" id="Q" min="0" max="50">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Skills:</legend><br>
+            <input type="checkbox" id="T"><br>
+            <label for="T">HTML</label><br>
+            <input type="checkbox" id="C"><br>
+            <label for="C">CSS</label><br>
+            <input type="checkbox" id="J"><br>
+            <label for="J">JAVA SCRIPT</label>
+        </fieldset>
+        <br>
+        <br>
+        <label for="O">Highest Education:</label><br>
+        <select name="occu" id="O"  multiple>
+            <option value="student">High School</option>
+            <option value="proffetional">College</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label>Avaibility:</label><br>
+        <br>
+        <input type="radio"  name="dax"  id="L"><br>
+        <label for="L">Full-time</label><br>
+        <input type="radio"  name="dax"  id="K"><br>
+        <label for="K">Part-time</label><br>
+        <br>
+        <label for="A">Additional Comments:</label><br>
+        <textarea name="text" id="A" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit application">
+        
+    </form>
+</body>
+</html>

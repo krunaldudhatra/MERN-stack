@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--example1-->
+
+    <table border="1">
+        <thead>
+            <th>student Id</th>
+            <th>student name</th>
+            <th>gender</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td colspan="3">keunil</td>
+                
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>keunil</td>
+                <td>male</td>
+                <td rowspan="3">18</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>keunil</td>
+                <td>male</td>
+                
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>keunil</td>
+                <td>male</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+
+<!--example2-->
+   
+ <table border="1">
+        <thead>
+            <th>c1</th>
+            <th>c2</th>
+            <th>c3</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="2">r1 c1</td>
+            <td>r1 c2</td>
+            <td>r1 c3</td>
+        </tr>
+        <tr>
+            
+            <td>r2 c2</td>
+            <td>r2 c3</td>
+        </tr>
+        <tr>
+            <td colspan="3">r3 c1</td>
+            
+        </tr>
+    </tbody>
+    </table>
+    
+<br>
+<br>
+    <!--example3-->
+    <table border="1">
+        <thead>
+            <th>No</th>
+            <th>name</th>
+            <th>position</th>
+            <th>salary</th>
+            <th>type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                      
+                <td>rahul</td>
+                <td>a</td>
+                <td>1000</td>
+                <td rowspan="4">founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>maya</td>
+                <td>c</td>
+                <td>2000</td>
+              
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>satish</td>
+                <td>b</td>
+                <td>1500</td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>bhidu</td>
+                <td>k</td>
+                <td>4000</td>
+                
+            </tr>
+            <tfoot>
+                <td colspan="3">total</td>
+                
+                <td>5000</td>
+                
+            </tfoot>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <!--example4-->
+    <table border="1">
+        <thead>
+            <th>Contry</th>
+            <th>State</th>
+            <th>City</th>
+            <th>Street</th>
+            <th>Male</th>
+            <th>Female</th>
+            <th>Others</th>
+        </thead>
+        <tbody>
+            <tr>
+               <td rowspan="8">1</td>
+               <td rowspan="4">Kerla</td>
+               <td rowspan="2">Cochine</td>
+               <td>New</td>
+               <td>500</td>
+               <td>600</td>
+               <td>6</td>
+            </tr>
+            <tr>
+                <td>Main</td>
+                <td>300</td>
+                <td>288</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Trivedi</td>
+                <td>New</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Main</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Maharastra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>New</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Main</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Surat</td>
+                <td>New</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Main</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2 </td>
+                <td rowspan="2">Alaska</td>
+                <td rowspan="2">AKA</td>
+                <td>New</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Main</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <!--example5-->
+<table border="1">
+    <thead>
+    <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+    </tr>
+    <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Begin</th>
+        <th>End</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8</td>
+        <td rowspan="2">5</td>
+        <td>intro</td>
+    </tr>
+    <tr>
+        <td>Validity</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Thursday</td>
+        <td>8</td>
+        <td>11</td>
+        <td rowspan="2">Xpath</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>11</td>
+        <td>Transformers</td>
+    </tr>
+    <tr>
+        <td> Wednesday</td>
+        <td>8</td>
+        <td>12</td>
+        <td>XSl</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
